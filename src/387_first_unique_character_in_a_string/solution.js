@@ -12,8 +12,8 @@ const firstUniqChar = (s) => {
 };
 
 const firstUniqChar = (s) => {
-  var map = {};
-  var i;
+  const map = {};
+  let i;
   for (i = 0; i < s.length; i++) {
     map[s.charAt(i)] = (map[s.charAt(i)] || 0) + 1;
   }
