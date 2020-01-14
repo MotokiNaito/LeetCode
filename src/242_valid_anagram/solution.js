@@ -3,7 +3,7 @@
  * @param {string} t
  * @return {boolean}
  */
-var isAnagram = function (s, t) {
+const isAnagram = (s, t) => {
   let map = {};
   for (let i = 0; i < s.length; i++) {
     if (!map[s[i]]) {
